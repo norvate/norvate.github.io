@@ -80,7 +80,7 @@
 		text-align: justify;
 	}
 	.profile-img {
-		height: 400px;
+		height: 200px;
 	}
 
 	/*----- Social Icons ------*/
@@ -100,12 +100,12 @@
 	}
 
 	.social-icons ul li {
-		heigth: 			60px;
-		width: 				60px;
+		heigth: 			100px;
+		width: 				100px;
 		list-style-type: 	none;
-		padding-left: 		20px;
-		padding-top:  		12px;
-		padding-bottom:  	12px;
+		padding-left: 		35px;
+		padding-top:  		20px;
+		padding-bottom:  	20px;
 		margin-top:   		5px;
 		color: 				#1f4e5f;
 		background: 		#f4e7d3;
@@ -124,14 +124,14 @@
 		z-index: 2;
 	}
 	.nav-bar .fa-bars {
-		font-size: 35px;
+		font-size: 60px;
 		color: #1f4e5f;
 	}
 	.navbar {
 		background-color: #f4e7d3;
 	}
 	.navbar-brand img {
-		height: 40px;
+		height: 60px;
 	}
 
 	.navbar-toggler {
@@ -286,7 +286,7 @@
 					url(img/footer.jpg);
 
 		background-repeat:no-repeat;
-		background-position: center -35%;
+		background-position: center center;
 		background-size: 		cover;
 		background-attachment: 	fixed;
 		color: #fff;
@@ -303,7 +303,7 @@
 	}
 
 	.contact .col-md-4 p {
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 
 	.contact .btn {
