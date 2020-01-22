@@ -570,7 +570,7 @@
 					url(img/footer.jpg);
 
 		background-repeat:no-repeat;
-		background-position: center -35%;
+		background-position: center center;
 		background-size: 		cover;
 		background-attachment: 	fixed;
 		color: #fff;
@@ -904,7 +904,7 @@
 					url(img/footer.jpg);
 
 		background-repeat:no-repeat;
-		background-position: center -10%;
+		background-position: center center;
 		background-size: 		cover;
 		background-attachment: 	fixed;
 		color: #fff;
