@@ -81,6 +81,7 @@
 	}
 	.profile-img {
 		height: 400px;
+		width: 400px;
 	}
 
 	/*----- Social Icons ------*/
@@ -412,7 +413,8 @@
 	}
 	
 	.profile-img {
-		height: 400px;
+		height: 350px;
+		width: 350px;
 		position: absolute;
 		top: 0;
 		bottom: 0;
@@ -629,7 +631,7 @@
 }
 
 /* Desktop Styles */
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 991px) {
 	  /* --- Color pair:
 	back: 	#f4e7d3;
 	front: 	#1f4e5f;
@@ -699,6 +701,13 @@
 	}
 	.profile-img {
 		height: 400px;
+		width: 400px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0; 
+		right: 0;
+		margin: auto;
 	}
 
 	/*----- Social Icons ------*/
