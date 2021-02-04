@@ -3,8 +3,8 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.row:before, .row:after {display: none !important;}
-.row:before, .row:after {width:0px; height:0px;}
+.row::before, .row::after {display: none !important;}
+.row::before, .row::after {width:0px; height:0px;}
 
 /* Mobile Styles */
 @media only screen /*and (max-width: 767px)*/ {
@@ -332,8 +332,8 @@
 
 	/*------------ Footer CSS ------------*/
 
-	.row:before, .row:after {display: none !important;}
-	.row:before, .row:after {width:0px; height:0px;}
+	.row::before, .row::after {display:: none !important;}
+	.row::before, .row::after {width::0px; height::0px;}
 }
 
 /* Tablet Styles */
@@ -632,8 +632,8 @@
 		color: red;
 	}
 
-	.row:before, .row:after {display: none !important;}
-	.row:before, .row:after {width:0px; height:0px;}
+	.row::before, .row::after {display:: none !important;}
+	.row::before, .row::after {width::0px; height::0px;}
 }
 
 /* Desktop Styles */
@@ -974,6 +974,6 @@
 		color: red;
 	}
 
-	.row:before, .row:after {display: none !important;}
-	.row:before, .row:after {width:0px; height:0px;}
+	.row::before, .row::after {display: none !important;}
+	.row::before, .row::after {width:0px; height:0px;}
 }
