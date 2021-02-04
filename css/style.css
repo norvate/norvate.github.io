@@ -1,7 +1,10 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.row:before, .row:after {
+	display: none !important;
 }
 
 /* Mobile Styles */
@@ -101,7 +104,7 @@
 	}
 
 	.social-icons ul li {
-		heigth: 			60px;
+		height: 			60px;
 		width: 				60px;
 		list-style-type: 	none;
 		padding-left: 		20px;
@@ -320,7 +323,7 @@
 	}
 
 	.contact .btn:focus {
-		box-showdow: none !important;
+		box-shadow: none !important;
 	}
 	.contact .btn:hover {
 		border: 2px solid #f4e7d3 !important;
@@ -440,7 +443,7 @@
 	}
 
 	.social-icons ul li {
-		heigth: 			60px;
+		height: 			60px;
 		width: 				60px;
 		list-style-type: 	none;
 		padding-left: 		20px;
@@ -606,7 +609,7 @@
 	}
 
 	.contact .btn:focus {
-		box-showdow: none !important;
+		box-shadow: none !important;
 	}
 	.contact .btn:hover {
 		border: 2px solid #f4e7d3 !important;
@@ -727,7 +730,7 @@
 	}
 
 	.social-icons ul li {
-		heigth: 			60px;
+		height: 			60px;
 		width: 				60px;
 		list-style-type: 	none;
 		padding-left: 		20px;
@@ -946,7 +949,7 @@
 	}
 
 	.contact .btn:focus {
-		box-showdow: none !important;
+		box-shadow: none !important;
 	}
 	.contact .btn:hover {
 		border: 2px solid #f4e7d3 !important;
