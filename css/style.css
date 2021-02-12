@@ -3,8 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.row::before, .row::after {display: none !important;}
-.row::before, .row::after {width:0px; height:0px;}
 
 /* Mobile Styles */
 @media only screen /*and (max-width: 767px)*/ {
@@ -91,7 +89,7 @@
 	.social-icons {
 		top: 50%;
 		transform: translateY(-50%);
-		position: sticky;
+		position: -webkit-sticky; position: sticky;
 		z-index: 1;
 		width: 80px;
 
@@ -123,7 +121,7 @@
 	/*-------- Navbar ---------*/
 	.nav-bar {
 		top: 0;
-		position: sticky;
+		position: -webkit-sticky; position: sticky;
 		z-index: 2;
 	}
 	.nav-bar .fa-bars {
@@ -332,8 +330,8 @@
 
 	/*------------ Footer CSS ------------*/
 
-	.row::before, .row::after {display:: none !important;}
-	.row::before, .row::after {width::0px; height::0px;}
+	.row::before, .row::after {display: none !important;}
+	.row::before, .row::after {width:0px; height:0px;}
 }
 
 /* Tablet Styles */
@@ -432,7 +430,7 @@
 	.social-icons {
 		top: 50%;
 		transform: translateY(-50%);
-		position: sticky;
+		position: -webkit-sticky; position: sticky;
 		z-index: 1;
 		width: 80px;
 
@@ -464,7 +462,7 @@
 	/*-------- Navbar ---------*/
 	.nav-bar {
 		top: 0;
-		position: sticky;
+		position: -webkit-sticky; position: sticky;
 		z-index: 2;
 	}
 	.nav-bar .fa-bars {
@@ -632,8 +630,8 @@
 		color: red;
 	}
 
-	.row::before, .row::after {display:: none !important;}
-	.row::before, .row::after {width::0px; height::0px;}
+	.row::before, .row::after {display: none !important;}
+	.row::before, .row::after {width:0px; height:0px;}
 }
 
 /* Desktop Styles */
@@ -721,7 +719,7 @@
 	.social-icons {
 		top: 50%;
 		transform: translateY(-50%);
-		position: sticky;
+		position: -webkit-sticky; position: sticky;
 		z-index: 1;
 		width: 80px;
 
@@ -753,7 +751,7 @@
 	/*-------- Navbar ---------*/
 	.nav-bar {
 		top: 0;
-		position: sticky;
+		position: -webkit-sticky; position: sticky;
 		z-index: 2;
 	}
 	.nav-bar .fa-bars {
