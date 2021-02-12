@@ -6,7 +6,7 @@
 
 @font-face {
 	font-family: headfont;
-	src: url("../font/AnonymousPro-Bold.ttf");
+	src: url("../font/AnonymousPro-Regular.ttf");
 }
 .nav-link.headfont {
 	font-family: headfont;
