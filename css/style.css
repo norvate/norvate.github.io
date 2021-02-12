@@ -4,6 +4,26 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+	font-family: headfont;
+	src: url("../font/AnonymousPro-Bold.ttf");
+}
+.nav-link.headfont {
+	font-family: headfont;
+	font-size: larger !important;
+	/* font-weight: bolder !important; */
+	color: #1f4e5f !important;
+}
+.headfont {
+	font-family: headfont;
+	/* font-size: larger !important; */
+	/* font-weight: bolder !important; */
+	color: #1f4e5f !important;
+}
+.front-color {
+	color: #1f4e5f !important;
+}
+
 /* Mobile Styles */
 @media only screen /*and (max-width: 767px)*/ {
 	/* --- Color pair:
@@ -163,6 +183,10 @@
 		background: #f4e7d3 !important;
 	}
 	/*-------------------- Resume ---------------------*/
+	.gallery-item {
+		height: fit-content;
+	}
+
 	.resume {
 		margin-top:		-100px;
 		margin-bottom:  0px;
@@ -330,8 +354,6 @@
 
 	/*------------ Footer CSS ------------*/
 
-	.row::before, .row::after {display: none !important;}
-	.row::before, .row::after {width:0px; height:0px;}
 }
 
 /* Tablet Styles */
@@ -504,6 +526,10 @@
 		background: #f4e7d3 !important;
 	}
 	/*-------------------- Resume ---------------------*/
+	.gallery-item {
+		height: fit-content;
+	}
+
 	.resume {
 		margin-top:		-100px;
 		margin-bottom:  0px;
@@ -630,8 +656,6 @@
 		color: red;
 	}
 
-	.row::before, .row::after {display: none !important;}
-	.row::before, .row::after {width:0px; height:0px;}
 }
 
 /* Desktop Styles */
@@ -793,6 +817,10 @@
 		background: #f4e7d3 !important;
 	}
 	/*-------------------- Resume ---------------------*/
+	.gallery-item {
+		height: fit-content;
+	}
+
 	.resume {
 		margin-top:		-100px;
 		margin-bottom:  0px;
@@ -972,6 +1000,4 @@
 		color: red;
 	}
 
-	.row::before, .row::after {display: none !important;}
-	.row::before, .row::after {width:0px; height:0px;}
 }
