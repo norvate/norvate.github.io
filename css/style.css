@@ -8,14 +8,15 @@
 	font-family: headfont;
 	src: url("../font/AnonymousPro-Regular.ttf");
 }
+
 .nav-link.headfont {
-	font-family: headfont;
-	font-size: larger !important;
+	font-family: 'Noticia Text', serif;
+	font-size: large !important;
 	/* font-weight: bolder !important; */
 	color: #1f4e5f !important;
 }
 .headfont {
-	font-family: headfont;
+	font-family: 'Noticia Text', serif;
 	/* font-size: larger !important; */
 	/* font-weight: bolder !important; */
 	color: #1f4e5f !important;
@@ -182,16 +183,20 @@
 		border-radius: 16px;
 		background: #f4e7d3 !important;
 	}
-	/*-------------------- Resume ---------------------*/
+	/*-------------------- Showcase ---------------------*/
 	.gallery-item {
 		height: fit-content;
 	}
 
-	.resume {
+	.showcase {
 		margin-top:		-100px;
 		margin-bottom:  0px;
 		padding-top: 0px;
 		background: 	#f9f9f9;
+	}
+	.showcase .img-thumbnail {
+		width: 255px;
+		height: 173.16px;
 	}
 
 	/*.timeline {
@@ -525,12 +530,12 @@
 		border-radius: 16px;
 		background: #f4e7d3 !important;
 	}
-	/*-------------------- Resume ---------------------*/
+	/*-------------------- Showcase ---------------------*/
 	.gallery-item {
 		height: fit-content;
 	}
 
-	.resume {
+	.showcase {
 		margin-top:		-100px;
 		margin-bottom:  0px;
 		padding-top: 0px;
@@ -816,12 +821,12 @@
 		border-radius: 16px;
 		background: #f4e7d3 !important;
 	}
-	/*-------------------- Resume ---------------------*/
+	/*-------------------- Showcase ---------------------*/
 	.gallery-item {
 		height: fit-content;
 	}
 
-	.resume {
+	.showcase {
 		margin-top:		-100px;
 		margin-bottom:  0px;
 		padding-top: 0px;
